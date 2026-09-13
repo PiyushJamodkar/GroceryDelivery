@@ -1,9 +1,9 @@
 <?php
 
-$host = "sql204.infinityfree.com";
-$user = "if0_42852387";
-$pass = "7vXJHHCr2wo4i";
-$db = "if0_42852387_grocerydelivery";
+$host = "YOUR_HOST";
+$user = "YOUR_USERNAME";
+$pass = "YOUR_PASSWORD";
+$db   = "YOUR_DATABASE";
 $conn = mysqli_connect($host, $user, $pass, $db);
 
 if (!$conn) {
